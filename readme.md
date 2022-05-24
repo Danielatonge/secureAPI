@@ -10,4 +10,9 @@
 ### What are we building?
 We are Building an API with high performance built with FastAPI & SQLAlchemy, help to improve connection with your Backend Side to create a simple blog and Cruds with OAuth2PasswordBearer 
 
-## Database
+## Secret Key
+To generate a SECRET_KEY u can use:
+
+```
+openssl rand -hex 32
+```

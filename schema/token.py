@@ -1,6 +1,6 @@
+from jose import JWTError, jwt
 from typing import Optional
 from datetime import datetime, timedelta
-from jose import jwt, JWTError
 from schema.schemas import TokenData
 import os
 
